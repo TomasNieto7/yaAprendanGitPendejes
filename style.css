@@ -1,0 +1,165 @@
+.wrapper {
+    margin: 0 50px;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #FFFCFC;
+    /* Color de fondo*/
+    color: #000000;
+    /*color de letra*/
+    padding: 30px;
+    border-radius: 32px;
+    /*borde redondeado */
+    border: 2px solid #000;
+    /* borde negro */
+    margin:  30px 50px 25px 50px;
+    /* Añade margen alrededor de la nav */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0px 20px 0px 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+
+}
+
+.recursos {
+    color: #38ADA9;
+    font-size: 25px;
+}
+
+.separator {
+    border: none;
+    border-top: 1px solid #000000;
+}
+
+/* Contenido */
+.container {
+    display: flex;
+    border: 2px solid #000;
+    height: 90vh;
+    border-radius: 32px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.left {
+    width: 50%;
+}
+
+
+.video {
+    background-color: #D9D9D9;
+    height: 430px;
+    width: 630px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.leftWrapper {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.logoJS {
+    width: 80px;
+    height: 80px;
+    margin-right: 35px;
+}
+
+.txtJS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 136px;
+    height: 60px;
+    background-color: #7EA9CD;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.leftTextWrapper {
+    width: 100%;
+    margin-left: 8%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Estilos de la derecha */
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contCurso {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 0px 0px 35px;
+}
+
+.shortcuts{
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.panelShortCut{
+    width: 110px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #7EA9CD;
+}
+
+.shortcuts-2{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+
+.descripcion {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    padding: 35px 0px 0px 35px;
+}
+
+#textDescription{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 75px;
+    text-align: justify;
+}
